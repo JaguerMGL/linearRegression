@@ -44,13 +44,13 @@ Run the following command : python3 train.py
 
 ### 3. Predict a price
 
-Run the following command : python3 predict.py
+Run the following command : python3 predict.py.
 Then enter a mileage when prompted, and the program will return the estimated price.
 ---
 
 ### 🔧 Tuning the Model
 
-To experiment with different values for the learning rate and number of iterations, you can run: python3 test.py
+To experiment with different values for the learning rate and number of iterations, you can run: python3 test.py.
 This script can help you find better hyperparameters for faster or more accurate convergence.
 
 

@@ -65,5 +65,5 @@ if __name__ == "__main__":
               f"Final Cost: {result['final_cost']:.2f}")
     
     best = min(results, key=lambda x: x['convergence_iteration'])
-    print(f"\n🏆 OPTIMAL: learning_rate={best['learning_rate']}, "
+    print(f"\nOPTIMAL: learning_rate={best['learning_rate']}, "
           f"iterations={best['convergence_iteration']}")

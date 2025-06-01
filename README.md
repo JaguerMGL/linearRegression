@@ -47,6 +47,7 @@ Run the following command : python3 train.py
 Run the following command : python3 predict.py
 
 Then enter a mileage when prompted, and the program will return the estimated price.
+
 ---
 
 ### 🔧 Tuning the Model

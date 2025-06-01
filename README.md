@@ -52,7 +52,7 @@ Then enter a mileage when prompted, and the program will return the estimated pr
 
 ### 🔧 Tuning the Model
 
-To experiment with different values for the learning rate and number of iterations, you can run: python3 test.py 
+To experiment with different values for the learning rate and number of iterations, you can run: python3 optimumParameters.py 
 
 This script can help you find better hyperparameters for faster or more accurate convergence.
 

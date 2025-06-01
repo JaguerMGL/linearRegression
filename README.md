@@ -30,7 +30,7 @@ estimatePrice(mileage) = theta0 + theta1 * mileage
 
 Create a file named `data.csv`:
 
-km,price
+#km,price
 240000,3650
 139800,3800
 ...

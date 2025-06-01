@@ -77,7 +77,7 @@ if __name__ == "__main__":
         km, price = load_data("data.csv")
         plot_data_distribution(km, price)
     except FileNotFoundError:
-        print("❌ Error: File 'data.csv' not found.")
-        print("   Make sure the file exists in the current directory.")
+        print("Error: File 'data.csv' not found.")
+        print("Make sure the file exists in the current directory.")
     except Exception as e:
-        print(f"❌ Unexpected error: {e}")
+        print(f"Unexpected error: {e}")

@@ -7,7 +7,7 @@ def test_hyperparameters():
     x_normalized, x_min, x_max = normalize_features(x)
     m = len(x_normalized)
     
-    learning_rates = [0.05, 0.1, 0.15, 0.2, 0.25, 0.3]
+    learning_rates = [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5]
     max_iterations = 2000
     
     results = []

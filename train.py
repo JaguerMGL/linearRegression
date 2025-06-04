@@ -20,7 +20,7 @@ def normalize_features(x):
 def estimate_price(km, theta0, theta1):
     return theta0 + theta1 * km
 
-def train(x, y, learning_rate=0.3, iterations=400):
+def train(x, y, learning_rate=0.45, iterations=300):
     # Normaliser les features
     x_normalized, x_min, x_max = normalize_features(x)
     
